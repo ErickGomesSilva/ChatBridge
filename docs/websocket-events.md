@@ -1,8 +1,8 @@
-# WebSocket Events 🔌
+# WebSocket Events
 
 Documentação completa dos eventos WebSocket do ChatBridge.
 
-## 🌐 Conexão
+## Conexão
 
 **URL**: `ws://localhost:3000`
 **Protocolo**: Socket.io
@@ -21,7 +21,7 @@ const socket = io('http://localhost:3000', {
 
 ---
 
-## 📤 Eventos Cliente → Servidor
+## Eventos Cliente → Servidor
 
 ### joinConversation
 
@@ -53,7 +53,7 @@ useEffect(() => {
 
 ---
 
-## 📥 Eventos Servidor → Cliente
+## Eventos Servidor → Cliente
 
 ### newMessage
 
@@ -105,7 +105,7 @@ useEffect(() => {
 
 ---
 
-## 🏠 Salas (Rooms)
+## Salas (Rooms)
 
 ### Estrutura de Salas
 
@@ -140,7 +140,7 @@ this.server.to(`conversation-${conversationId}`).emit('newMessage', message);
 
 ---
 
-## 🔄 Fluxo de Mensagens
+## Fluxo de Mensagens
 
 ### 1. Envio de Mensagem
 
@@ -174,7 +174,7 @@ sequenceDiagram
 
 ---
 
-## 🛠️ Implementação no Backend
+## Implementação no Backend
 
 ### MessagesGateway
 
@@ -225,7 +225,7 @@ async createMessage(text: string, sender: User, conversation: Conversation): Pro
 
 ---
 
-## 🎯 Implementação no Frontend
+## Implementação no Frontend
 
 ### Hook de WebSocket
 
@@ -294,7 +294,7 @@ export default function ChatRoom() {
 
 ---
 
-## 🔧 Configuração
+## Configuração
 
 ### Backend (NestJS)
 
@@ -323,7 +323,7 @@ export const socket = io('http://localhost:3000', {
 
 ---
 
-## 🚨 Tratamento de Erros
+## Tratamento de Erros
 
 ### Conexão Perdida
 
@@ -352,7 +352,7 @@ socket.on('reconnect', (attemptNumber) => {
 
 ---
 
-## 📊 Monitoramento
+## Monitoramento
 
 ### Logs do Servidor
 
@@ -375,7 +375,7 @@ console.log(`Clientes na conversa ${conversationId}: ${clientCount}`);
 
 ---
 
-## 🔒 Segurança
+## Segurança
 
 ### Validação de Conversa
 

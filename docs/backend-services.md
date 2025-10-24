@@ -1,8 +1,8 @@
-# Backend Services 📋
+# Backend Services 
 
 Documentação dos serviços do backend ChatBridge.
 
-## 🔐 AuthService
+## AuthService
 
 **Localização**: `src/auth/auth.service.ts`
 
@@ -34,7 +34,7 @@ Documentação dos serviços do backend ChatBridge.
 
 ---
 
-## 👥 UsersService
+## UsersService
 
 **Localização**: `src/users/users.service.ts`
 
@@ -64,7 +64,7 @@ Documentação dos serviços do backend ChatBridge.
 
 ---
 
-## 💬 MessagesService
+## MessagesService
 
 **Localização**: `src/messages/messages.service.ts`
 
@@ -97,7 +97,7 @@ Documentação dos serviços do backend ChatBridge.
 
 ---
 
-## 🗨️ ConversationsService
+## 🗨ConversationsService
 
 **Localização**: `src/conversations/conversations.service.ts`
 
@@ -128,7 +128,7 @@ Documentação dos serviços do backend ChatBridge.
 
 ---
 
-## 🔌 MessagesGateway (WebSocket)
+## MessagesGateway (WebSocket)
 
 **Localização**: `src/messages/message.gateway.ts`
 
@@ -157,7 +157,7 @@ Documentação dos serviços do backend ChatBridge.
 
 ---
 
-## 🔧 AppService
+## AppService
 
 **Localização**: `src/app.service.ts`
 
@@ -170,7 +170,7 @@ Documentação dos serviços do backend ChatBridge.
 
 ---
 
-## 📊 Fluxo de Dados
+## Fluxo de Dados
 
 ### Registro de Usuário
 ```
@@ -192,7 +192,7 @@ Frontend → MessagesController → MessagesService → Database → WebSocket �
 WebSocket → MessagesGateway → Frontend (todos os clientes na sala)
 ```
 
-## 🛡️ Segurança
+## Segurança
 
 - **Senhas**: Hash com bcrypt (10 rounds)
 - **JWT**: Tokens com expiração de 1 dia

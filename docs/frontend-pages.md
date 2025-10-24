@@ -1,8 +1,8 @@
-# Frontend Pages 📱
+# Frontend Pages
 
 Documentação das páginas do frontend ChatBridge.
 
-## 🏠 Página Principal (Inbox)
+## Página Principal (Inbox)
 
 **Localização**: `src/app/page.tsx`
 **Rota**: `/`
@@ -54,7 +54,7 @@ interface User {
 
 ---
 
-## 🔐 Página de Login
+## Página de Login
 
 **Localização**: `src/app/login/page.tsx`
 **Rota**: `/login`
@@ -98,7 +98,7 @@ interface User {
 
 ---
 
-## 📝 Página de Registro
+## Página de Registro
 
 **Localização**: `src/app/register/page.tsx`
 **Rota**: `/register`
@@ -140,7 +140,7 @@ interface User {
 
 ---
 
-## 💬 Página de Chat
+## Página de Chat
 
 **Localização**: `src/app/chat/[id]/page.tsx`
 **Rota**: `/chat/[conversationId]`
@@ -223,7 +223,7 @@ interface Message {
 
 ---
 
-## ➕ Página Nova Conversa
+## Página Nova Conversa
 
 **Localização**: `src/app/new/page.tsx`
 **Rota**: `/new`
@@ -266,7 +266,7 @@ interface Message {
 
 ---
 
-## 🎨 Componentes Reutilizáveis
+## Componentes Reutilizáveis
 
 ### LogoutButton
 **Localização**: `src/components/LogoutButton.tsx`
@@ -285,7 +285,7 @@ interface Message {
 
 ---
 
-## 🔧 Configuração
+## Configuração
 
 ### API Client
 **Localização**: `src/app/lib/api.ts`
@@ -304,7 +304,7 @@ interface Message {
 
 ---
 
-## 📱 Responsividade
+## Responsividade
 
 ### Breakpoints
 - **Mobile**: < 768px
@@ -318,7 +318,7 @@ interface Message {
 
 ---
 
-## 🎯 Fluxo de Navegação
+## Fluxo de Navegação
 
 ```
 /register → /login → / (inbox) → /new → /chat/[id]

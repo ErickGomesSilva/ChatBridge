@@ -1,8 +1,8 @@
-# Frontend Components 🧩
+# Frontend Components
 
 Documentação dos componentes do frontend ChatBridge.
 
-## 🔐 LogoutButton
+## LogoutButton
 
 **Localização**: `src/components/LogoutButton.tsx`
 
@@ -36,7 +36,7 @@ Documentação dos componentes do frontend ChatBridge.
 
 ---
 
-## 🔑 AuthContext
+## AuthContext
 
 **Localização**: `src/context/AuthContext.tsx`
 
@@ -80,7 +80,7 @@ const { user, login, logout } = useAuth();
 
 ---
 
-## 🌐 API Client
+## API Client
 
 **Localização**: `src/app/lib/api.ts`
 
@@ -114,7 +114,7 @@ const response = await axios.post('/auth/login', { email, password });
 
 ---
 
-## 🔌 Socket Client
+## Socket Client
 
 **Localização**: `src/app/lib/socket.ts`
 
@@ -149,7 +149,7 @@ socket.on('newMessage', (message) => {
 
 ---
 
-## 🎨 Estilos Globais
+## Estilos Globais
 
 **Localização**: `src/app/globals.css`
 
@@ -197,7 +197,7 @@ socket.on('newMessage', (message) => {
 
 ---
 
-## 📱 Layout Principal
+## Layout Principal
 
 **Localização**: `src/app/layout.tsx`
 
@@ -222,7 +222,7 @@ socket.on('newMessage', (message) => {
 
 ---
 
-## 🔄 Hooks Customizados
+## Hooks Customizados
 
 ### useAuth
 - **Descrição**: Hook para autenticação
@@ -244,7 +244,7 @@ socket.on('newMessage', (message) => {
 
 ---
 
-## 🎯 Padrões de Design
+## Padrões de Design
 
 ### Componentes
 - **Functional Components**: Todos os componentes são funcionais
@@ -271,7 +271,7 @@ socket.on('newMessage', (message) => {
 
 ---
 
-## 🧪 Testes de Componentes
+## Testes de Componentes
 
 ### Estrutura
 - **Jest**: Framework de testes
@@ -286,7 +286,7 @@ socket.on('newMessage', (message) => {
 
 ---
 
-## 📦 Dependências
+## Dependências
 
 ### Principais
 - **Next.js 16**: Framework React

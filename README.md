@@ -1,6 +1,7 @@
-# ChatBridge 💬
+# ChatBridge
 
 Uma aplicação de chat em tempo real construída com **NestJS** (backend) e **Next.js** (frontend), utilizando **WebSockets** para comunicação instantânea.
+Aplicação feita para desafio para um processo seletivo, para fins de estudo
 
 ## Arquitetura
 

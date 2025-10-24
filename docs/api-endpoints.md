@@ -1,8 +1,8 @@
-# API Endpoints 📡
+# API Endpoints
 
 Documentação completa dos endpoints da API ChatBridge.
 
-## 🔐 Autenticação
+## Autenticação
 
 ### POST /api/auth/register
 **Descrição**: Registra um novo usuário no sistema
@@ -67,7 +67,7 @@ Content-Type: application/json
 
 ---
 
-## 👥 Usuários
+## Usuários
 
 ### GET /api/users
 **Descrição**: Lista todos os usuários cadastrados
@@ -102,7 +102,7 @@ Content-Type: application/json
 
 ---
 
-## 🗨️ Conversas
+## Conversas
 
 ### POST /api/conversations
 **Descrição**: Cria nova conversa entre dois usuários
@@ -190,7 +190,7 @@ Content-Type: application/json
 
 ---
 
-## 💬 Mensagens
+## Mensagens
 
 ### POST /api/messages/:conversationId
 **Descrição**: Envia mensagem para uma conversa
@@ -281,7 +281,7 @@ Content-Type: application/json
 
 ---
 
-## 🏠 App
+## App
 
 ### GET /api
 **Descrição**: Health check da API
@@ -293,7 +293,7 @@ Content-Type: application/json
 
 ---
 
-## 🔌 WebSocket Events
+## WebSocket Events
 
 **URL**: `ws://localhost:3000`
 
@@ -344,7 +344,7 @@ socket.on('newMessage', (message) => {
 
 ---
 
-## 📋 Códigos de Status HTTP
+## Códigos de Status HTTP
 
 | Código | Descrição | Uso |
 |--------|-----------|-----|
@@ -358,7 +358,7 @@ socket.on('newMessage', (message) => {
 
 ---
 
-## 🔒 Autenticação
+## Autenticação
 
 ### JWT Token
 **Formato**: `Bearer <token>`
@@ -382,7 +382,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
 
 ---
 
-## 📝 Validações
+## Validações
 
 ### Email
 - Formato válido de email
@@ -403,7 +403,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
 
 ---
 
-## 🚀 Exemplos de Uso
+## Exemplos de Uso
 
 ### Registro e Login
 ```bash

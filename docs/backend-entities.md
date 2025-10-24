@@ -1,8 +1,8 @@
-# Backend Entities 🗃️
+# Backend Entities 
 
 Documentação das entidades (modelos de dados) do backend ChatBridge.
 
-## 👤 User Entity
+## User Entity
 
 **Localização**: `src/users/user.entity.ts`
 **Tabela**: `user`
@@ -37,7 +37,7 @@ Documentação das entidades (modelos de dados) do backend ChatBridge.
 
 ---
 
-## 🗨️ Conversation Entity
+## 🗨Conversation Entity
 
 **Localização**: `src/conversations/conversation.entity.ts`
 **Tabela**: `conversation`
@@ -82,7 +82,7 @@ Documentação das entidades (modelos de dados) do backend ChatBridge.
 
 ---
 
-## 💬 Message Entity
+## Message Entity
 
 **Localização**: `src/messages/message.entity.ts`
 **Tabela**: `message`
@@ -121,7 +121,7 @@ Documentação das entidades (modelos de dados) do backend ChatBridge.
 
 ---
 
-## 🗄️ Estrutura do Banco de Dados
+## Estrutura do Banco de Dados
 
 ### Diagrama de Relacionamentos
 
@@ -179,7 +179,7 @@ CREATE TABLE "message" (
 
 ---
 
-## 🔍 Índices e Otimizações
+## Índices e Otimizações
 
 ### Índices Recomendados
 
@@ -198,7 +198,7 @@ CREATE INDEX "IDX_message_createdAt" ON "message" ("createdAt");
 
 ---
 
-## 🔄 Operações CRUD
+## Operações CRUD
 
 ### User
 - **Create**: `UsersService.createUser()`
@@ -220,7 +220,7 @@ CREATE INDEX "IDX_message_createdAt" ON "message" ("createdAt");
 
 ---
 
-## 🛡️ Validações e Constraints
+## Validações e Constraints
 
 ### User
 - Email deve ser único
@@ -240,7 +240,7 @@ CREATE INDEX "IDX_message_createdAt" ON "message" ("createdAt");
 
 ---
 
-## 📊 Estatísticas e Métricas
+## Estatísticas e Métricas
 
 ### Queries Úteis
 

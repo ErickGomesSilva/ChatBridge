@@ -1,8 +1,8 @@
-# Backend Controllers 🎮
+# Backend Controllers
 
 Documentação dos controllers (endpoints) do backend ChatBridge.
 
-## 🔐 AuthController
+## AuthController
 
 **Localização**: `src/auth/auth.controller.ts`
 **Rota Base**: `/api/auth`
@@ -48,7 +48,7 @@ Documentação dos controllers (endpoints) do backend ChatBridge.
 
 ---
 
-## 👥 UsersController
+## UsersController
 
 **Localização**: `src/users/users.controller.ts`
 **Rota Base**: `/api/users`
@@ -72,7 +72,7 @@ Documentação dos controllers (endpoints) do backend ChatBridge.
 
 ---
 
-## 💬 MessagesController
+## MessagesController
 
 **Localização**: `src/messages/messages.controller.ts`
 **Rota Base**: `/api/messages`
@@ -130,7 +130,7 @@ Documentação dos controllers (endpoints) do backend ChatBridge.
 
 ---
 
-## 🗨️ ConversationsController
+## ConversationsController
 
 **Localização**: `src/conversations/conversations.controller.ts`
 **Rota Base**: `/api/conversations`
@@ -197,7 +197,7 @@ Documentação dos controllers (endpoints) do backend ChatBridge.
 
 ---
 
-## 🏠 AppController
+## AppController
 
 **Localização**: `src/app.controller.ts`
 **Rota Base**: `/api`
@@ -213,7 +213,7 @@ Documentação dos controllers (endpoints) do backend ChatBridge.
 
 ---
 
-## 🔌 WebSocket Events
+## WebSocket Events
 
 **Gateway**: `MessagesGateway`
 **URL**: `ws://localhost:3000`
@@ -234,7 +234,7 @@ Documentação dos controllers (endpoints) do backend ChatBridge.
 
 ---
 
-## 📋 Códigos de Status HTTP
+## Códigos de Status HTTP
 
 | Código | Descrição |
 |--------|-----------|
@@ -266,7 +266,7 @@ Authorization: Bearer <jwt_token>
 
 ---
 
-## 📝 DTOs (Data Transfer Objects)
+## DTOs (Data Transfer Objects)
 
 ### RegisterUserDto
 ```typescript
@@ -294,7 +294,7 @@ Authorization: Bearer <jwt_token>
 
 ---
 
-## 🚀 Exemplos de Uso
+## Exemplos de Uso
 
 ### Registro de Usuário
 ```bash
