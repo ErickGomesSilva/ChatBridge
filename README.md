@@ -2,13 +2,64 @@
 
 Uma aplicação de chat em tempo real construída com **NestJS** (backend) e **Next.js** (frontend), utilizando **WebSockets** para comunicação instantânea.
 
-## 🏗️ Arquitetura
+## Arquitetura
 
 ```
 ChatBridge/
-├── Back-end/          # API NestJS
+├── Back-end/                         # API em NestJS
 │   └── chat_back/
-└── front-end/         # App Next.js
+│       ├── src/
+│       │   ├── auth/                 # Módulo de autenticação (JWT, guards, login)
+│       │   ├── conversations/        # Controle de conversas (chat rooms, histórico)
+│       │   ├── dto/                  # Objetos de transferência de dados e validações
+│       │   ├── messages/             # Envio e recebimento de mensagens
+│       │   ├── test/                 # Testes automatizados
+│       │   ├── users/                # Cadastro, login e gerenciamento de usuários
+│       │   ├── app.controller.spec.ts
+│       │   ├── app.controller.ts
+│       │   ├── app.module.ts
+│       │   ├── app.service.ts
+│       │   └── main.ts               # Ponto de entrada da aplicação NestJS
+│       ├── package.json
+│       ├── tsconfig.json
+│       └── nest-cli.json
+│
+├── front-end/                        # Aplicação Web (Next.js)
+│   ├── public/                       # Arquivos estáticos
+│   │   ├── file.svg
+│   │   ├── globe.svg
+│   │   ├── next.svg
+│   │   ├── vercel.svg
+│   │   └── window.svg
+│   │
+│   ├── src/
+│   │   ├── app/                      # Estrutura de rotas e páginas do Next.js (App Router)
+│   │   │   ├── chat/[id]/            # Página de chat dinâmico (ex: /chat/123)
+│   │   │   ├── lib/                  # Funções utilitárias específicas do app
+│   │   │   ├── login/                # Página de login
+│   │   │   ├── new/                  # Criação de novas conversas ou usuários
+│   │   │   ├── register/             # Página de registro de usuário
+│   │   │   ├── favicon.ico
+│   │   │   ├── globals.css
+│   │   │   ├── layout.tsx            # Layout global da aplicação
+│   │   │   └── page.tsx              # Página inicial
+│   │   │
+│   │   ├── components/               # Componentes reutilizáveis (botões, inputs, etc.)
+│   │   └── context/                  # Contextos React (autenticação, sessão, etc.)
+│   │
+│   ├── .gitignore
+│   ├── README.md
+│   ├── eslint.config.mjs
+│   ├── next.config.js
+│   ├── package.json
+│   └── tsconfig.json
+│
+├── docs/                             # Documentação e especificações
+│   └── ... (diagramas, instruções, APIs, etc.)
+│
+├── README.md                         # Documentação principal do projeto
+└── .gitignore                        # Regras de exclusão do Git
+
 ```
 
 ## Tecnologias
