@@ -88,14 +88,14 @@ npm run test:cov
 
 #### Backend (.env)
 ```env
-DB_HOST=localhost
+DB_HOST=$
 DB_PORT=5432
-DB_USERNAME=postgres
-DB_PASSWORD=admin
-DB_DATABASE=ChatBridge
+DB_USERNAME=$
+DB_PASSWORD=$
+DB_DATABASE=$
 JWT_SECRET=sua-chave-secreta
 NODE_ENV=development
-PORT=3000
+PORT=$
 ```
 
 #### Frontend (.env.local)
@@ -125,7 +125,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 👥 Autores
 
-- **Seu Nome** - *Desenvolvimento* - [SeuGitHub](https://github.com/seuusuario)
+- Erick Gomes da Silva - *Desenvolvimento* - [SeuGitHub](https://github.com/seuusuario)
 
 ## 🙏 Agradecimentos
 
