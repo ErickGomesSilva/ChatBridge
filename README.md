@@ -58,12 +58,6 @@ npm install
 npm run dev
 ```
 
-## 🌐 URLs
-
-- **Frontend**: http://localhost:3001
-- **Backend**: http://localhost:3000/api
-- **WebSocket**: ws://localhost:3000
-
 ## 📚 Documentação Detalhada
 
 - [Backend Services](./docs/backend-services.md)
