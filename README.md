@@ -11,7 +11,7 @@ ChatBridge/
 └── front-end/         # App Next.js
 ```
 
-## 🚀 Tecnologias
+## Tecnologias
 
 ### Backend
 - **NestJS** - Framework Node.js
@@ -28,7 +28,7 @@ ChatBridge/
 - **Socket.io Client** - WebSockets
 - **Axios** - Cliente HTTP
 
-## 📋 Funcionalidades
+## Funcionalidades
 
 - ✅ **Autenticação** (Login/Registro)
 - ✅ **Chat em tempo real** via WebSockets
@@ -37,7 +37,7 @@ ChatBridge/
 - ✅ **Interface responsiva**
 - ✅ **Testes unitários e e2e**
 
-## 🛠️ Instalação
+## Instalação
 
 ### Pré-requisitos
 - Node.js 18+
@@ -58,7 +58,7 @@ npm install
 npm run dev
 ```
 
-## 📚 Documentação Detalhada
+## Documentação Detalhada
 
 - [Backend Services](./docs/backend-services.md)
 - [Backend Controllers](./docs/backend-controllers.md)
@@ -68,7 +68,7 @@ npm run dev
 - [API Endpoints](./docs/api-endpoints.md)
 - [WebSocket Events](./docs/websocket-events.md)
 
-## 🧪 Testes
+## Testes
 
 ```bash
 # Backend - Testes unitários
@@ -82,7 +82,7 @@ npm run test:e2e
 npm run test:cov
 ```
 
-## 🔧 Configuração
+## Configuração
 
 ### Variáveis de Ambiente
 
@@ -103,7 +103,7 @@ PORT=$
 NEXT_PUBLIC_API_URL=http://localhost:3000
 ```
 
-## 📖 Como Usar
+## Como Usar
 
 1. **Registre-se** em `/register`
 2. **Faça login** em `/login`
@@ -111,7 +111,7 @@ NEXT_PUBLIC_API_URL=http://localhost:3000
 4. **Inicie nova conversa** clicando em "Nova conversa"
 5. **Chat em tempo real** - mensagens aparecem instantaneamente
 
-## 🤝 Contribuição
+## Contribuição
 
 1. Fork o projeto
 2. Crie uma branch (`git checkout -b feature/nova-funcionalidade`)
@@ -119,15 +119,15 @@ NEXT_PUBLIC_API_URL=http://localhost:3000
 4. Push para a branch (`git push origin feature/nova-funcionalidade`)
 5. Abra um Pull Request
 
-## 📄 Licença
+## Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## 👥 Autores
+## Autores
 
-- Erick Gomes da Silva - *Desenvolvimento* - [SeuGitHub](https://github.com/seuusuario)
+- Erick Gomes da Silva - *Desenvolvimento* - [Meu Git](https://github.com/ErickGomesSilva/)
 
-## 🙏 Agradecimentos
+## Agradecimentos
 
 - NestJS Team
 - Next.js Team
