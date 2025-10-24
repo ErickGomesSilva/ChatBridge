@@ -81,12 +81,12 @@ ChatBridge/
 
 ## Funcionalidades
 
-- ✅ **Autenticação** (Login/Registro)
-- ✅ **Chat em tempo real** via WebSockets
-- ✅ **Conversas privadas** entre usuários
-- ✅ **Histórico de mensagens**
-- ✅ **Interface responsiva**
-- ✅ **Testes unitários e e2e**
+- **Autenticação** (Login/Registro)
+- **Chat em tempo real** via WebSockets
+- **Conversas privadas** entre usuários
+- **Histórico de mensagens**
+- **Interface responsiva**
+- **Testes unitários e e2e**
 
 ## Instalação
 
@@ -140,7 +140,7 @@ npm run test:cov
 #### Backend (.env)
 ```env
 DB_HOST=$
-DB_PORT=5432
+DB_PORT=$
 DB_USERNAME=$
 DB_PASSWORD=$
 DB_DATABASE=$
@@ -151,7 +151,7 @@ PORT=$
 
 #### Frontend (.env.local)
 ```env
-NEXT_PUBLIC_API_URL=http://localhost:3000
+NEXT_PUBLIC_API_URL=$
 ```
 
 ## Como Usar
@@ -170,9 +170,6 @@ NEXT_PUBLIC_API_URL=http://localhost:3000
 4. Push para a branch (`git push origin feature/nova-funcionalidade`)
 5. Abra um Pull Request
 
-## Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## Autores
 
