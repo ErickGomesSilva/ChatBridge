@@ -13,7 +13,7 @@ ChatBridge/
 │       │   ├── conversations/        # Controle de conversas (chat rooms, histórico)
 │       │   ├── dto/                  # Objetos de transferência de dados e validações
 │       │   ├── messages/             # Envio e recebimento de mensagens
-│       │   ├── test/                 # Testes automatizados
+│       │   ├── test/                 # Testes automatizados com Jest
 │       │   ├── users/                # Cadastro, login e gerenciamento de usuários
 │       │   ├── app.controller.spec.ts
 │       │   ├── app.controller.ts
@@ -73,8 +73,8 @@ ChatBridge/
 - **bcryptjs** - Hash de senhas
 
 ### Frontend
-- **Next.js 16** - Framework React
-- **TypeScript** - Tipagem estática
+- **Next.js 18** - Framework React
+- **TypeScript** - linguagem
 - **Tailwind CSS** - Estilização
 - **Socket.io Client** - WebSockets
 - **Axios** - Cliente HTTP
