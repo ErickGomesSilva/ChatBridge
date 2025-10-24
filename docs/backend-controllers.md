@@ -247,7 +247,7 @@ Documentação dos controllers (endpoints) do backend ChatBridge.
 
 ---
 
-## 🔒 Autenticação
+## Autenticação
 
 ### Header de Autorização
 ```

@@ -97,7 +97,7 @@ Documentação dos serviços do backend ChatBridge.
 
 ---
 
-## 🗨ConversationsService
+## ConversationsService
 
 **Localização**: `src/conversations/conversations.service.ts`
 

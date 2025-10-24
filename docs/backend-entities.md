@@ -37,7 +37,7 @@ Documentação das entidades (modelos de dados) do backend ChatBridge.
 
 ---
 
-## 🗨Conversation Entity
+## Conversation Entity
 
 **Localização**: `src/conversations/conversation.entity.ts`
 **Tabela**: `conversation`
